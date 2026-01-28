@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Drafts
+*.draft.md
+
+# Security - never commit these
+.env
+.env.*
+*.secret
+*.key
+*.pem
+secrets/
+credentials.json
+config.json
+api-keys.json
